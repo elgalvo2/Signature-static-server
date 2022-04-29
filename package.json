@@ -4,7 +4,7 @@
   "description": "static server. Serves static content for web sites",
   "main": "index.js",
   "scripts": {
-    "dev":"nodemon index.js",
+    "dev": "nodemon index.js",
     "test": "jest --watchAll"
   },
   "repository": {
@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/elgalvo2/Signature-static-server#readme",
   "dependencies": {
-    "express": "^4.18.0"
+    "express": "^4.18.0",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
